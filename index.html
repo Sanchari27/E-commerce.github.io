@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        header {
+            background-color: beige;
+            border: 2px solid red;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        .logo {
+            display: flex;
+            height: 100px;
+        }
+
+        nav ul {
+            height: 58px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            padding: 0 23px;
+        }
+
+        nav ul li a:hover {
+            color: blueviolet;
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+        }
+
+        .search input {
+            height: 30px;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .search button {
+            background-color: azure;
+            color: rgb(101, 78, 169);
+            cursor: pointer;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 15px;
+        }
+
+        .slider {
+            margin: auto;
+            width: 80vw;
+            margin: 12px auto;
+            overflow: hidden;
+        }
+
+        .card-item {
+            width: 10vw;
+            display: inline-flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 18px;
+        }
+
+        .card {
+            max-width: 90vw;
+            margin: 37px auto;
+        }
+        .cards{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .card h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .my-2 {
+            margin: 26px 0;
+        }
+
+        .my-1 {
+            margin: 5px 0;
+        }
+
+        .text-center {
+            text-align: center;
+
+        }
+
+        .container {
+            min-height: calc(100vh - 58px - 12vh);
+        }
+
+        footer {
+            height: 12vh;
+            background-color: black;
+            color: azure;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.avif" alt="">
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" name="" id="" placeholder="Search your item">
+                <button class="btn">search</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="slider">
+                <img src="https://source.unsplash.com/1200x600/?shopping, ecommerce" alt="">
+            </div>
+
+            <div class="card">
+                <h2 class="my-2">Join the outfits fest</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?Jeans" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Jeans</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?Sarees" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">sarees</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?women-Tops" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">TOPS</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?Kurtas" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Kurtas</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?Blazers" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Blazers</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="my-2">Food items</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?Jalebi" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Jalebi</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?kulfi" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Kulfi</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?Pulsetoffee" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Toffee</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?Horlicks" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Horlicks</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?Honey" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Honey</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="my-2">Electronic Items</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?Mobilephone" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Mobile phone</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?Iron" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Iron</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?Fridge" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Fridge</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?WashingMachine" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Washing Machine</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/150x150/?Television" alt="" width="150">
+                        <div class="lines">
+                            <p class="text-center my-1">Television</p>
+                            <p class="text-center my-1">Min 10% off</p>
+                            <p class="text-center my-1">Grab now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p class="text-center">
+            copyright &copy; Mycart.com
+        </p>
+    </footer>
+
+</body>
+
+</html>
